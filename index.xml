@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Victor A. Ying on Victor A. Ying</title>
-    <link>http://www.victoraying.com/</link>
+    <link>https://www.victoraying.com/</link>
     <description>Recent content in Victor A. Ying on Victor A. Ying</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
@@ -10,10 +10,10 @@
     
     <item>
       <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</title>
-      <link>http://www.victoraying.com/publication/fractal/</link>
+      <link>https://www.victoraying.com/publication/fractal/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.victoraying.com/publication/fractal/</guid>
+      <guid>https://www.victoraying.com/publication/fractal/</guid>
       <description></description>
     </item>
     

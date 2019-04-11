@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>admin on Victor A. Ying</title>
-    <link>http://www.victoraying.com/authors/admin/</link>
+    <link>https://www.victoraying.com/authors/admin/</link>
     <description>Recent content in admin on Victor A. Ying</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jun 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.victoraying.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.victoraying.com/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</title>
-      <link>http://www.victoraying.com/publication/fractal/</link>
+      <link>https://www.victoraying.com/publication/fractal/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.victoraying.com/publication/fractal/</guid>
+      <guid>https://www.victoraying.com/publication/fractal/</guid>
       <description>A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://www.victoraying.com/author/admin/</link>
+      <link>https://www.victoraying.com/author/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.victoraying.com/author/admin/</guid>
+      <guid>https://www.victoraying.com/author/admin/</guid>
       <description>Hi, I&amp;rsquo;m Victor. I&amp;rsquo;m a 3rd year SM/PhD student working with Daniel Sanchez at MIT CSAIL. My primary work is in the Swarm project, which seeks to build new abstractions between hardware and software that make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. My work spans microarchitectures, compilers, and applications. I seek to redefine the roles of hardware and software, not only to make it easy to scale workloads where parallelization is expensive and error-prone today, but also to make it practical to scale workloads that today&amp;rsquo;s systems cannot scale at all.</description>
     </item>
     

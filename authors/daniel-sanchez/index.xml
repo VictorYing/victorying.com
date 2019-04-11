@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Daniel Sanchez on Victor A. Ying</title>
-    <link>http://www.victoraying.com/authors/daniel-sanchez/</link>
+    <link>https://www.victoraying.com/authors/daniel-sanchez/</link>
     <description>Recent content in Daniel Sanchez on Victor A. Ying</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Jun 2017 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="http://www.victoraying.com/authors/daniel-sanchez/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.victoraying.com/authors/daniel-sanchez/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</title>
-      <link>http://www.victoraying.com/publication/fractal/</link>
+      <link>https://www.victoraying.com/publication/fractal/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 -0400</pubDate>
       
-      <guid>http://www.victoraying.com/publication/fractal/</guid>
+      <guid>https://www.victoraying.com/publication/fractal/</guid>
       <description>A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.</description>
     </item>
     
