@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +28,10 @@
   
     
   
-  <meta name="description" content="PhD student">
+  <meta name="description" content="A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://www.victoraying.com/">
+  <link rel="alternate" hreflang="en-us" href="http://www.victoraying.com/publication/fractal/">
 
   
 
@@ -107,7 +106,7 @@
   <link rel="shortcut icon" type="image/png" href="https://www.csail.mit.edu/themes/custom/csail/images/favicon.ico">
   
 
-  <link rel="canonical" href="http://www.victoraying.com/">
+  <link rel="canonical" href="http://www.victoraying.com/publication/fractal/">
 
   
   
@@ -119,22 +118,24 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Victor A. Ying">
-  <meta property="og:url" content="http://www.victoraying.com/">
-  <meta property="og:title" content="Victor A. Ying">
-  <meta property="og:description" content="PhD student"><meta property="og:image" content="http://www.victoraying.com/img/icon-192.png">
+  <meta property="og:url" content="http://www.victoraying.com/publication/fractal/">
+  <meta property="og:title" content="Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism | Victor A. Ying">
+  <meta property="og:description" content="A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×."><meta property="og:image" content="http://www.victoraying.com/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-06-28T00:00:00-04:00">
+  <meta property="article:published_time" content="2017-06-28T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2017-06-28T00:00:00-04:00">
   
 
   
 
   
 
-  <title>Victor A. Ying</title>
+  <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism | Victor A. Ying</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
   <aside class="search-results" id="search">
   <div class="container">
     <section class="search-header">
@@ -195,7 +196,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#about" data-target="#about">
+          <a class="nav-link" href="/#about">
             
             <span>Home</span>
             
@@ -214,7 +215,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#featured" data-target="#featured">
+          <a class="nav-link" href="/#featured">
             
             <span>Publications</span>
             
@@ -235,7 +236,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="http://people.csail.mit.edu/victory/cv.pdf" data-target="http://people.csail.mit.edu/victory/cv.pdf" target="_blank" rel="noopener">
+          <a class="nav-link" href="http://people.csail.mit.edu/victory/cv.pdf" target="_blank" rel="noopener">
             
             <span>CV</span>
             
@@ -254,7 +255,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#contact" data-target="#contact">
+          <a class="nav-link" href="/#contact">
             
             <span>Contact</span>
             
@@ -280,50 +281,7 @@
   </div>
 </nav>
 
-
-
-<span id="homepage" class="d-none"></span>
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="about" class="home-section wg-about   " >
-    <div class="container">
-      
-
-
-
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -335,280 +293,18 @@
 
 
 
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email person-address">
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="portrait" src="/author/admin/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-      
-
-      <div class="portrait-title">
-        <h2 itemprop="name">Victor A. Ying</h2>
-        <h3 itemprop="jobTitle">PhD student</h3>
-
-        
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          <a href="https://www.csail.mit.edu/" target="_blank" itemprop="url" rel="noopener">
-          <span itemprop="name">MIT CSAIL</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <link itemprop="url" href="">
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-        <li>
-          <a itemprop="sameAs" href="mailto:victory@csail.mit.edu" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://scholar.google.com/citations?user=7ZtzjEUAAAAJ" target="_blank" rel="noopener">
-            <i class="ai ai-google-scholar big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://dblp.uni-trier.de/pers/hd/y/Ying:Victor_A=" target="_blank" rel="noopener">
-            <i class="ai ai-dblp big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://dl.acm.org/author_page.cfm?id=99659180875" target="_blank" rel="noopener">
-            <i class="ai ai-acmdl big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://ieeexplore.ieee.org/author/37086319141" target="_blank" rel="noopener">
-            <i class="ai ai-ieee big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="https://www.linkedin.com/in/victorying" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
-        </li>
-        
-        
-        
-        
-        
-        
-        
-        
-          
-        
-        <li>
-          <a itemprop="sameAs" href="http://people.csail.mit.edu/victory/cv.pdf" target="_blank" rel="noopener">
-            <i class="ai ai-cv big-icon"></i>
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </div>
-  <div class="col-12 col-lg-8" itemprop="description">
-
-    
-    
-
-    <p>Hi, I&rsquo;m Victor. I&rsquo;m a 3rd year SM/PhD student working with <a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a>
-at <a href="https://www.csail.mit.edu/" target="_blank">MIT CSAIL</a>.
-My primary work is in <a href="https://www.csail.mit.edu/research/pervasive-parallelism-swarm-architecture" target="_blank">the Swarm project</a>,
-which seeks to build new abstractions between hardware and software
-that make it as easy to exploit multicore parallelism
-as it is to write ordinary sequential programs.
-My work spans microarchitectures, compilers, and applications.
-I seek to redefine the roles of hardware and software,
-not only to make it easy to scale workloads where parallelization
-is expensive and error-prone today,
-but also to make it practical to scale workloads that
-today&rsquo;s systems cannot scale at all.</p>
-
-<p>Before coming to MIT, I received my BSE in electrical engineering
-from <a href="https://engineering.princeton.edu/" target="_blank">Princeton</a>,
-where I worked with <a href="http://www.princeton.edu/~sharad/" target="_blank">Sharad Malik</a>
-on <a href="http://www.fields.utoronto.ca/sites/default/files/talk-attachments/SharadMalik-Fields2016.pdf" target="_blank">Boolean satisfiability solvers</a>.
-I have also done internships working on the design of
-hardware systems at <a href="https://www.nvidia.com/en-us/research/" target="_blank">NVIDIA Research</a>,
-<a href="https://www.purestorage.com/" target="_blank">Pure Storage</a>,
-and <a href="https://www.nist.gov/publications/tunable-supercontinuum-fiber-laser-source-brdf-measurements-starr-ii-gonioreflectometer" target="_blank">NIST</a>.</p>
-
-<p>You can access my <em>curriculum vitae</em> <a href="http://people.csail.mit.edu/victory/cv.pdf" target="_blank">here</a>.</p>
-
-
-    <div class="row">
-
-      
-      <div class="col-md-5">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Computer Architecture</li>
-          
-          <li>Parallelizing Compilers</li>
-          
-          <li>Parallel Programming Models</li>
-          
-          <li>Programmable Accelerators</li>
-          
-        </ul>
-      </div>
-      
-
-      
-
-    </div>
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="featured" class="home-section wg-featured   " >
-    <div class="container">
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Featured Publications</h1>
-    <p>See CV above for all publications</p>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-
-    
-      
-        
-
-
-
-
-
-
-  
-  
-
-
 
 
 
   
 
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</h1>
 
-<div class="card-simple" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  
 
   
     
@@ -698,43 +394,60 @@ and <a href="https://www.nist.gov/publications/tunable-supercontinuum-fiber-lase
   
 
   
-  <span class="middot-divider"></span>
-  <span class="pub-publication">
+
+  
+
+  
+  
+
+  
+
+  
     
-      In <em>ISCA&rsquo;17</em>
-    
-  </span>
-  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;url=http%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=http%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=http%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;body=http%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
-  
-
-  
-  
-
-  
 
   
 
 </div>
 
-  
-
-  
-  
-  
-
-  <h3 class="article-title mb-1 mt-3" itemprop="name">
-    <a href="/publication/fractal/" itemprop="url">Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</a>
-  </h3>
-
-  
-  <div class="article-style" itemprop="articleBody">
-    A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.
-  </div>
-  
-
-  
-  <div class="btn-links">
     
 
 
@@ -744,13 +457,30 @@ and <a href="https://www.nist.gov/publications/tunable-supercontinuum-fiber-lase
 
 
 
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
   
     
   
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://people.csail.mit.edu/sanchez/papers/2017.fractal.isca.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://people.csail.mit.edu/sanchez/papers/2017.fractal.isca.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -780,102 +510,102 @@ and <a href="https://www.nist.gov/publications/tunable-supercontinuum-fiber-lase
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://news.mit.edu/2017/speedup-parallel-computing-algorithms-0630" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://news.mit.edu/2017/speedup-parallel-computing-algorithms-0630" target="_blank" rel="noopener">
     
     MIT News
   </a>
 
 
-  </div>
-  
-
 </div>
 
-      
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Most systems that support speculative parallelization, like hardware transactional memory (HTM), do not support nested parallelism.  This sacrifices substantial parallelism and precludes composing parallel algorithms. And the few HTMs that do support nested parallelism focus on parallelizing at the coarsest (shallowest) levels, incurring large overheads that squander most of their potential.  We present Fractal, a new execution model that supports unordered and timestamp-ordered nested parallelism. Fractal lets programmers seamlessly compose speculative parallel algorithms, and lets the architecture exploit parallelism at all levels. Fractal can parallelize a broader range of applications than prior speculative execution models. We design a Fractal implementation that extends the Swarm architecture and focuses on parallelizing at the finest (deepest) levels. Our approach sidesteps the issues of nested parallel HTMs and uncovers abundant fine-grain parallelism. As a result, Fractal outperforms prior speculative architectures by up to 88× at 256 core.</p>
     
 
-  </div>
-</div>
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
 
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
-  </section>
-  
-
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  <section id="contact" class="home-section wg-contact   " >
-    <div class="container">
-      
-
-
-
-
-<div class="row contact-widget">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>Contact</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
+    <div class="d-md-none space-below"></div>
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>44th International Symposium on Computer Architecture (ISCA)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
 
-    <ul class="fa-ul" itemscope>
+    <div class="space-below"></div>
 
-      
-      <li>
-        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
-        <span id="person-email" itemprop="email"><a href="mailto:victory@csail.mit.edu">victory@csail.mit.edu</a></span>
-      </li>
-      
-
-      
-
-      
-      <li>
-        <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address" itemprop="address">MIT CSAIL, 32 Vassar St, Rm. 32-G884, Cambridge, MA 02139</span>
-      </li>
-      
-
-      
-
-      
-
-      
-      
-
-    </ul>
+    <div class="article-style"></div>
 
     
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">Source Themes</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+
 
   </div>
 </div>
 
-    </div>
-  </section>
-  
 
 
 <div class="container">
@@ -994,5 +724,4 @@ and <a href="https://www.nist.gov/publications/tunable-supercontinuum-fiber-lase
 
   </body>
 </html>
-
 
