@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.">
+  <meta name="description" content="Extending Swarm&#39;s hardware and software mechanisms to enable speculative and non-speculative tasks to coordinate on shared data structures, to enable unrestricted tasks, and to allow expert programmers to safely implement efficient and scalable system services, such as memory allocation, within speculative tasks, improving performance by up to 69×.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.victoraying.com/publication/fractal/">
+  <link rel="alternate" hreflang="en-us" href="https://www.victoraying.com/publication/espresso/">
 
   
 
@@ -106,7 +106,7 @@
   <link rel="shortcut icon" type="image/png" href="https://www.csail.mit.edu/themes/custom/csail/images/favicon.ico">
   
 
-  <link rel="canonical" href="https://www.victoraying.com/publication/fractal/">
+  <link rel="canonical" href="https://www.victoraying.com/publication/espresso/">
 
   
   
@@ -118,21 +118,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Victor A. Ying">
-  <meta property="og:url" content="https://www.victoraying.com/publication/fractal/">
-  <meta property="og:title" content="Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism | Victor A. Ying">
-  <meta property="og:description" content="A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×.">
+  <meta property="og:url" content="https://www.victoraying.com/publication/espresso/">
+  <meta property="og:title" content="Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism | Victor A. Ying">
+  <meta property="og:description" content="Extending Swarm&#39;s hardware and software mechanisms to enable speculative and non-speculative tasks to coordinate on shared data structures, to enable unrestricted tasks, and to allow expert programmers to safely implement efficient and scalable system services, such as memory allocation, within speculative tasks, improving performance by up to 69×.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-06-28T00:00:00-04:00">
+  <meta property="article:published_time" content="2018-10-22T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2017-06-28T00:00:00-04:00">
-  
-
+  <meta property="article:modified_time" content="2018-10-22T00:00:00-04:00">
   
 
   
 
-  <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism | Victor A. Ying</title>
+  
+
+  <title>Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism | Victor A. Ying</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -302,7 +302,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</h1>
+  <h1 itemprop="name">Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism</h1>
 
   
 
@@ -311,8 +311,8 @@
 
 
 
-<meta content="2017-06-28 00:00:00 -0400 DST" itemprop="datePublished">
-<meta content="2017-06-28 00:00:00 -0400 DST" itemprop="dateModified">
+<meta content="2018-10-22 00:00:00 -0400 DST" itemprop="datePublished">
+<meta content="2018-10-22 00:00:00 -0400 DST" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -331,28 +331,7 @@
 
       
       
-      <a href="">Suvinay Subramanian</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
       <a href="">Mark C. Jeffrey</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Maleen Abeydeera</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="">Hyun Ryong Lee</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
@@ -361,6 +340,20 @@
       
       
         <a href="/authors/admin/">Victor A. Ying</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Suvinay Subramanian</a></span></span>, 
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        
+
+      
+      
+      <a href="">Hyun Ryong Lee</a></span></span>, 
   <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">
         
@@ -389,7 +382,7 @@
     
       
     
-    <time>June 2017</time>
+    <time>October 2018</time>
   </span>
   
 
@@ -408,35 +401,35 @@
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
+         href="https://twitter.com/intent/tweet?text=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism"
          target="_blank" rel="noopener">
         <i class="fab fa-linkedin-in"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism"
          target="_blank" rel="noopener">
         <i class="fab fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f">
+         href="mailto:?subject=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f">
         <i class="fas fa-envelope"></i>
       </a>
     </li>
@@ -480,7 +473,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://people.csail.mit.edu/sanchez/papers/2017.fractal.isca.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://people.csail.mit.edu/sanchez/papers/2018.espresso.micro.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -499,22 +492,6 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://news.mit.edu/2017/speedup-parallel-computing-algorithms-0630" target="_blank" rel="noopener">
-    
-    MIT News
-  </a>
-
 
 </div>
 
@@ -528,7 +505,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Most systems that support speculative parallelization, like hardware transactional memory (HTM), do not support nested parallelism.  This sacrifices substantial parallelism and precludes composing parallel algorithms. And the few HTMs that do support nested parallelism focus on parallelizing at the coarsest (shallowest) levels, incurring large overheads that squander most of their potential.  We present Fractal, a new execution model that supports unordered and timestamp-ordered nested parallelism. Fractal lets programmers seamlessly compose speculative parallel algorithms, and lets the architecture exploit parallelism at all levels. Fractal can parallelize a broader range of applications than prior speculative execution models. We design a Fractal implementation that extends the Swarm architecture and focuses on parallelizing at the finest (deepest) levels. Our approach sidesteps the issues of nested parallel HTMs and uncovers abundant fine-grain parallelism. As a result, Fractal outperforms prior speculative architectures by up to 88× at 256 core.</p>
+    <p class="pub-abstract" itemprop="text">Multicore systems should support both speculative and non-speculative parallelism. Speculative parallelism is easy to use and is crucial to scale many challenging applications, while non-speculative parallelism is more efficient and allows parallel irrevocable actions (e.g., parallel I/O). Unfortunately, prior techniques are far from this goal. Hardware transactional memory (HTM) systems support speculative (transactional) and non-speculative (non-transactional) work, but lack coordination mechanisms between the two, and are limited to unordered parallelism. Prior work has extended HTMs to avoid the limitations of speculative execution, e.g., through escape actions and open-nested transactions. But these mechanisms are incompatible with systems that exploit ordered parallelism, which parallelize a broader range of applications and are easier to use.  We contribute two techniques that enable seamlessly composing and coordinating speculative and non-speculative work in the context of ordered parallelism: (i) a task-based execution model that efficiently coordinates concurrent speculative and non-speculative ordered tasks, allowing them to create tasks of either kind and to operate on shared data; and (ii) a safe way for speculative tasks to invoke software-managed speculative actions that avoid hardware version management and conflict detection. These contributions improve efficiency and enable new capabilities. Across several benchmarks, they allow the system to dynamically choose whether to execute tasks speculatively or nonspeculatively, avoid needless conflicts among speculative tasks, and allow speculative tasks to safely invoke irrevocable actions.</p>
     
 
     
@@ -560,7 +537,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>44th International Symposium on Computer Architecture (ISCA)</em></div>
+          <div class="col-12 col-md-9">In <em>51st Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

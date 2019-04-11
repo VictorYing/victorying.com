@@ -6,10 +6,19 @@
     <description>Recent content in Publications on Victor A. Ying</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="https://www.victoraying.com/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism</title>
+      <link>https://www.victoraying.com/publication/espresso/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.victoraying.com/publication/espresso/</guid>
+      <description>Extending Swarm&amp;rsquo;s hardware and software mechanisms to enable speculative and non-speculative tasks to coordinate on shared data structures, to enable unrestricted tasks, and to allow expert programmers to safely implement efficient and scalable system services, such as memory allocation, within speculative tasks, improving performance by up to 69×.</description>
+    </item>
     
     <item>
       <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</title>

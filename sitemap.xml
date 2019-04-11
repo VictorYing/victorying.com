@@ -3,21 +3,82 @@
     <url>
     
       <loc>https://www.victoraying.com/publication_types/1/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
       <loc>https://www.victoraying.com/authors/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
   
     <url>
     
       <loc>https://www.victoraying.com/authors/daniel-sanchez/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/publication/espresso/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/authors/hyun-ryong-lee/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/authors/joel-emer/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/authors/mark-c.-jeffrey/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/publication_types/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/publication/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/authors/suvinay-subramanian/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/authors/admin/</loc>
+      <lastmod>2018-10-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
   
@@ -29,76 +90,7 @@
   
     <url>
     
-      <loc>https://www.victoraying.com/authors/hyun-ryong-lee/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/authors/joel-emer/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
       <loc>https://www.victoraying.com/authors/maleen-abeydeera/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/authors/mark-c.-jeffrey/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/publication_types/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/publication/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/tags/source-themes/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/authors/suvinay-subramanian/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/tags/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/</loc>
-      <lastmod>2017-06-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-  
-    <url>
-    
-      <loc>https://www.victoraying.com/authors/admin/</loc>
       <lastmod>2017-06-28T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
@@ -128,6 +120,12 @@
     <url>
     
       <loc>https://www.victoraying.com/talk/</loc>
+    </url>
+  
+    <url>
+    
+      <loc>https://www.victoraying.com/tags/</loc>
+      <priority>0</priority>
     </url>
   
 </urlset>
