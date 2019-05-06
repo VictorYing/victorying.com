@@ -44,7 +44,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.victoraying.com/author/admin/</guid>
-      <description>Hi, I&amp;rsquo;m Victor. I&amp;rsquo;m a 3rd year SM/PhD student working with Daniel Sanchez at MIT CSAIL. My primary work is in the Swarm project, which seeks to build new abstractions between hardware and software that make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. My work spans microarchitectures, compilers, and applications. I seek to redefine the roles of hardware and software, not only to make it easy to scale workloads where parallelization is expensive and error-prone today, but also to make it practical to scale workloads that today&amp;rsquo;s systems cannot scale at all.</description>
+      <description>Hi, I&amp;rsquo;m Victor. I&amp;rsquo;m a 3rd year SM/PhD student working with Daniel Sanchez at MIT CSAIL. My primary work is in the Swarm project, which seeks to build new abstractions between hardware and software that make it as easy to exploit multicore parallelism as it is to write ordinary sequential programs. My work spans computer architecture, compilers, and applications. I seek not only to make it easy to scale workloads where parallelization is expensive and error-prone today, but also to make it practical to scale workloads that today&amp;rsquo;s systems cannot scale at all.</description>
     </item>
     
   </channel>
