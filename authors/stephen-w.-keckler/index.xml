@@ -4,11 +4,11 @@
     <title>Stephen W. Keckler on Victor A. Ying</title>
     <link>https://www.victoraying.com/authors/stephen-w.-keckler/</link>
     <description>Recent content in Stephen W. Keckler on Victor A. Ying</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Mar 2019 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://www.victoraying.com/authors/stephen-w.-keckler/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://www.victoraying.com/authors/stephen-w.-keckler/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,7 +17,7 @@
       <pubDate>Tue, 26 Mar 2019 00:00:00 -0400</pubDate>
       
       <guid>https://www.victoraying.com/publication/timeloop/</guid>
-      <description>An infrastructure for exploring the design space of deep neural network (DNN) accelerators, including an expressive and concise representation of hardware topologies and choices about dataflow orchestration, as well as efficient modeling of performance and energy that enables exploring trade-offs by searching through large spaces of potential accelerator designs.</description>
+      <description></description>
     </item>
     
   </channel>
