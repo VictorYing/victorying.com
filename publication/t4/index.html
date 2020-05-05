@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="PhD student at MIT. Making it easier for more programmers to exploit multicore parallelism across all their code.">
+  <meta name="description" content="Compiling ordinary sequential C and C&#43;&#43; programs to run in parallel on Swarm.  Challenging applications are scaled to tens of cores, without requiring the programmer to indicate what code is safe to parallelize.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://www.victoraying.com/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/">
+  <link rel="alternate" hreflang="en-us" href="https://www.victoraying.com/publication/t4/">
 
   
 
@@ -91,15 +91,12 @@
   
 
   
-  <link rel="alternate" href="/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/index.xml" type="application/rss+xml" title="Victor A. Ying">
-  <link rel="feed" href="/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/index.xml" type="application/rss+xml" title="Victor A. Ying">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://www.victoraying.com/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/">
+  <link rel="canonical" href="https://www.victoraying.com/publication/t4/">
 
   
   
@@ -113,12 +110,14 @@
   <meta property="twitter:creator" content="@VictorAYing">
   
   <meta property="og:site_name" content="Victor A. Ying">
-  <meta property="og:url" content="https://www.victoraying.com/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/">
-  <meta property="og:title" content="[Daniel Sanchez](http://people.csail.mit.edu/sanchez/) | Victor A. Ying">
-  <meta property="og:description" content="PhD student at MIT. Making it easier for more programmers to exploit multicore parallelism across all their code."><meta property="og:image" content="https://www.victoraying.com/img/avatar.jpg">
+  <meta property="og:url" content="https://www.victoraying.com/publication/t4/">
+  <meta property="og:title" content="T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware | Victor A. Ying">
+  <meta property="og:description" content="Compiling ordinary sequential C and C&#43;&#43; programs to run in parallel on Swarm.  Challenging applications are scaled to tens of cores, without requiring the programmer to indicate what code is safe to parallelize."><meta property="og:image" content="https://www.victoraying.com/img/avatar.jpg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2020-06-01T00:00:00-04:00">
+  <meta property="article:published_time" content="2020-06-01T00:00:00-04:00">
+  
+  <meta property="article:modified_time" content="2020-06-01T00:00:00-04:00">
   
 
   
@@ -130,7 +129,7 @@
 
 
 
-  <title>[Daniel Sanchez](http://people.csail.mit.edu/sanchez/) | Victor A. Ying</title>
+  <title>T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware | Victor A. Ying</title>
 
 </head>
 
@@ -315,43 +314,259 @@
 </nav>
 
 
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
   
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">[Daniel Sanchez](http://people.csail.mit.edu/sanchez/)</h1>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2020-06-01 00:00:00 -0400 EDT" itemprop="datePublished">
+<meta content="2020-06-01 00:00:00 -0400 EDT" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/">Victor A. Ying</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://www.eecg.utoronto.ca/~mcj/" target="_blank">Mark C. Jeffrey</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>June 2020</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=T4%3a%20Compiling%20Sequential%20Code%20for%20Effective%20Speculative%20Parallelization%20in%20Hardware&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ft4%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2ft4%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ft4%2f&amp;title=T4%3a%20Compiling%20Sequential%20Code%20for%20Effective%20Speculative%20Parallelization%20in%20Hardware"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ft4%2f&amp;title=T4%3a%20Compiling%20Sequential%20Code%20for%20Effective%20Speculative%20Parallelization%20in%20Hardware"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=T4%3a%20Compiling%20Sequential%20Code%20for%20Effective%20Speculative%20Parallelization%20in%20Hardware&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2ft4%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+
+</div>
+
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/papers/isca_2020_t4.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text"><p>Multicores are now ubiquitous, but programmers still write sequential code. Speculative parallelization is an enticing approach to parallelize code while retaining the ease of sequential programming, making parallelism pervasive. However, prior speculative parallelizing compilers and architectures achieved limited speedups due to high costs of recovering from misspeculation and hardware scalability bottlenecks.</p>
+
+<p>We present T4, a parallelizing compiler that successfully leverages recent hardware features for speculative execution, which present new opportunities and challenges for automatic parallelization. T4 transforms sequential programs into trees of tiny timestamped tasks. T4 introduces novel compiler techniques to expose parallelism aggressively across the entire program, breaking applications into tiny tasks of tens of instructions each. Task trees unfold their branches in parallel to enable high task-spawn throughput while exploiting selective aborts to recover from misspeculation cheaply. T4 exploits parallelism across function calls, loops, and loop nests; performs new transformations to reduce task spawn costs and avoid false sharing; and exploits data locality among fine-grain tasks. As a result, T4 scales several hard-to-parallelize SPEC CPU2006 benchmarks to tens of cores, on which prior work attained little or no speedup.</p>
+</p>
     
 
     
-    
-    
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/t4/">T4: Compiling Sequential Code for Effective Speculative Parallelization in Hardware</a>
-        </li>
-        
-        <li>
-          <a href="/publication/espresso/">Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism</a>
-        </li>
-        
-        <li>
-          <a href="/publication/fractal/">Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</a>
-        </li>
-        
-      </ul>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
-  </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>47th Annual International Symposium on Computer Architecture (ISCA)</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
   
-</section>
+  
+    
+  
+  
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
 
       
 
