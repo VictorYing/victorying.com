@@ -154,7 +154,7 @@
       <guid>https://www.victoraying.com/authors/admin/</guid>
       <description>&lt;p&gt;Hi, I&amp;rsquo;m Victor. I&amp;rsquo;m a PhD student working with &lt;a href=&#34;http://people.csail.mit.edu/sanchez/&#34; target=&#34;_blank&#34;&gt;Daniel Sanchez&lt;/a&gt;
 at &lt;a href=&#34;https://www.csail.mit.edu/&#34; target=&#34;_blank&#34;&gt;MIT CSAIL&lt;/a&gt;.
-My primary work is in &lt;a href=&#34;https://www.csail.mit.edu/research/pervasive-parallelism-swarm-architecture&#34; target=&#34;_blank&#34;&gt;the Swarm project&lt;/a&gt;,
+My primary work is in &lt;a href=&#34;http://swarm.csail.mit.edu&#34; target=&#34;_blank&#34;&gt;the Swarm project&lt;/a&gt;,
 which seeks to build new abstractions between hardware and software
 that make it as easy to exploit multicore parallelism
 as it is to write ordinary sequential programs.
