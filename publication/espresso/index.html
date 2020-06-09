@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,13 +76,14 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.966b3bc843cfea29ab40b0bad2f17078.css">
+  <link rel="stylesheet" href="/css/academic.min.986fd6dcc6a9841b1bfe2809c80999ba.css">
 
   
 
@@ -92,8 +93,8 @@
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://www.victoraying.com/publication/espresso/">
@@ -104,6 +105,7 @@
   
     
   
+  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@VictorAYing">
@@ -113,12 +115,67 @@
   <meta property="og:url" content="https://www.victoraying.com/publication/espresso/">
   <meta property="og:title" content="Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism | Victor A. Ying">
   <meta property="og:description" content="Extending Swarm&#39;s hardware and software mechanisms to enable speculative and non-speculative tasks to coordinate on shared data structures, to enable unrestricted tasks, and to allow expert programmers to safely implement efficient and scalable system services, such as memory allocation, within speculative tasks, improving performance by up to 69×."><meta property="og:image" content="https://www.victoraying.com/img/avatar.jpg">
-  <meta property="og:locale" content="en-us">
+  <meta property="twitter:image" content="https://www.victoraying.com/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-10-22T00:00:00-04:00">
+    
+      <meta property="article:published_time" content="2018-10-22T00:00:00-04:00">
+    
+    <meta property="article:modified_time" content="2018-10-22T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2018-10-22T00:00:00-04:00">
+
   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.victoraying.com/publication/espresso/"
+  },
+  "headline": "Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism",
+  
+  "datePublished": "2018-10-22T00:00:00-04:00",
+  "dateModified": "2018-10-22T00:00:00-04:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Victor A. Ying",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.victoraying.com/img/icon-512.png"
+    }
+  },
+  "description": "Extending Swarm's hardware and software mechanisms to enable speculative and non-speculative tasks to coordinate on shared data structures, to enable unrestricted tasks, and to allow expert programmers to safely implement efficient and scalable system services, such as memory allocation, within speculative tasks, improving performance by up to 69×."
+}
+</script>
+
+  
+
+  
+
 
   
 
@@ -133,8 +190,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -168,7 +224,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -314,7 +370,7 @@
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="pub">
 
   
 
@@ -335,7 +391,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism</h1>
+  <h1>Harmonizing Speculative and Non-Speculative Execution in Architectures for Ordered Parallelism</h1>
 
   
 
@@ -343,9 +399,6 @@
     
 
 
-
-<meta content="2018-10-22 00:00:00 -0400 EDT" itemprop="datePublished">
-<meta content="2018-10-22 00:00:00 -0400 EDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -358,7 +411,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://www.eecg.utoronto.ca/~mcj/" target="_blank">Mark C. Jeffrey</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/">Victor A. Ying</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="http://people.csail.mit.edu/suvinay/" target="_blank">Suvinay Subramanian</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/hyun-ryong-lee/">Hyun Ryong Lee</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a></span>
+  <span><a href="https://www.eecg.utoronto.ca/~mcj/" target="_blank">Mark C. Jeffrey</a></span>, <span><a href="/">Victor A. Ying</a></span>, <span><a href="http://people.csail.mit.edu/suvinay/" target="_blank">Suvinay Subramanian</a></span>, <span><a href="/authors/hyun-ryong-lee/">Hyun Ryong Lee</a></span>, <span><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>, <span><a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a></span>
 
   </div>
   
@@ -370,7 +423,7 @@
     
       
     
-    <time>October 2018</time>
+    October 2018
   </span>
   
 
@@ -378,6 +431,7 @@
 
   
 
+  
   
   
 
@@ -388,40 +442,85 @@
     
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2fespresso%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.victoraying.com/publication/espresso/&amp;text=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.victoraying.com/publication/espresso/&amp;t=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism&amp;body=https://www.victoraying.com/publication/espresso/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.victoraying.com/publication/espresso/&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism%20https://www.victoraying.com/publication/espresso/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.victoraying.com/publication/espresso/&amp;title=Harmonizing%20Speculative%20and%20Non-Speculative%20Execution%20in%20Architectures%20for%20Ordered%20Parallelism" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
   </ul>
 </div>
 
@@ -501,7 +600,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Multicore systems should support both speculative and non-speculative parallelism. Speculative parallelism is easy to use and is crucial to scale many challenging applications, while non-speculative parallelism is more efficient and allows parallel irrevocable actions (e.g., parallel I/O). Unfortunately, prior techniques are far from this goal. Hardware transactional memory (HTM) systems support speculative (transactional) and non-speculative (non-transactional) work, but lack coordination mechanisms between the two, and are limited to unordered parallelism. Prior work has extended HTMs to avoid the limitations of speculative execution, e.g., through escape actions and open-nested transactions. But these mechanisms are incompatible with systems that exploit ordered parallelism, which parallelize a broader range of applications and are easier to use.  We contribute two techniques that enable seamlessly composing and coordinating speculative and non-speculative work in the context of ordered parallelism: (i) a task-based execution model that efficiently coordinates concurrent speculative and non-speculative ordered tasks, allowing them to create tasks of either kind and to operate on shared data; and (ii) a safe way for speculative tasks to invoke software-managed speculative actions that avoid hardware version management and conflict detection. These contributions improve efficiency and enable new capabilities. Across several benchmarks, they allow the system to dynamically choose whether to execute tasks speculatively or nonspeculatively, avoid needless conflicts among speculative tasks, and allow speculative tasks to safely invoke irrevocable actions.</p>
+    <p class="pub-abstract">Multicore systems should support both speculative and non-speculative parallelism. Speculative parallelism is easy to use and is crucial to scale many challenging applications, while non-speculative parallelism is more efficient and allows parallel irrevocable actions (e.g., parallel I/O). Unfortunately, prior techniques are far from this goal. Hardware transactional memory (HTM) systems support speculative (transactional) and non-speculative (non-transactional) work, but lack coordination mechanisms between the two, and are limited to unordered parallelism. Prior work has extended HTMs to avoid the limitations of speculative execution, e.g., through escape actions and open-nested transactions. But these mechanisms are incompatible with systems that exploit ordered parallelism, which parallelize a broader range of applications and are easier to use.  We contribute two techniques that enable seamlessly composing and coordinating speculative and non-speculative work in the context of ordered parallelism: (i) a task-based execution model that efficiently coordinates concurrent speculative and non-speculative ordered tasks, allowing them to create tasks of either kind and to operate on shared data; and (ii) a safe way for speculative tasks to invoke software-managed speculative actions that avoid hardware version management and conflict detection. These contributions improve efficiency and enable new capabilities. Across several benchmarks, they allow the system to dynamically choose whether to execute tasks speculatively or nonspeculatively, avoid needless conflicts among speculative tasks, and allow speculative tasks to safely invoke irrevocable actions.</p>
     
 
     
@@ -568,6 +667,10 @@
 
 
 
+
+    
+
+
   </div>
 </div>
 
@@ -592,6 +695,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -600,9 +705,7 @@
 
     
     
-
-    
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -625,6 +728,7 @@
 
     
     
+
     
     
     
@@ -635,7 +739,9 @@
     
     
     
-    <script src="/js/academic.min.80598a1dc7d6b3a6fc1a6321b4faaf74.js"></script>
+    
+    
+    <script src="/js/academic.min.78950463da9085f271e45587656e114c.js"></script>
 
     
 

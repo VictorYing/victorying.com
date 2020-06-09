@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>[Maleen Abeydeera](https://sites.google.com/site/maleen89/) on Victor A. Ying</title>
+    <title>[Maleen Abeydeera](https://sites.google.com/site/maleen89/) | Victor A. Ying</title>
     <link>https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/</link>
-    <description>Recent content in [Maleen Abeydeera](https://sites.google.com/site/maleen89/) on Victor A. Ying</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2017 00:00:00 -0400</lastBuildDate>
-    
-	    <atom:link href="https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Maleen Abeydeera](https://sites.google.com/site/maleen89/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Jun 2017 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://www.victoraying.com/img/avatar.jpg</url>
+      <title>[Maleen Abeydeera](https://sites.google.com/site/maleen89/)</title>
+      <link>https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/</link>
+    </image>
     
     <item>
       <title>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</title>
       <link>https://www.victoraying.com/publication/fractal/</link>
       <pubDate>Wed, 28 Jun 2017 00:00:00 -0400</pubDate>
-      
       <guid>https://www.victoraying.com/publication/fractal/</guid>
       <description></description>
     </item>

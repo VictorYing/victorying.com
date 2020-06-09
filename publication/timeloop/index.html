@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,13 +76,14 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.966b3bc843cfea29ab40b0bad2f17078.css">
+  <link rel="stylesheet" href="/css/academic.min.986fd6dcc6a9841b1bfe2809c80999ba.css">
 
   
 
@@ -92,8 +93,8 @@
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://www.victoraying.com/publication/timeloop/">
@@ -104,6 +105,7 @@
   
     
   
+  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@VictorAYing">
@@ -113,12 +115,67 @@
   <meta property="og:url" content="https://www.victoraying.com/publication/timeloop/">
   <meta property="og:title" content="Timeloop: A Systematic Approach to DNN Accelerator Evaluation | Victor A. Ying">
   <meta property="og:description" content="An infrastructure for exploring the design space of deep neural network (DNN) accelerators, including an expressive and concise representation of hardware topologies and choices about dataflow orchestration, as well as efficient modeling of performance and energy that enables exploring trade-offs by searching through large spaces of potential accelerator designs."><meta property="og:image" content="https://www.victoraying.com/img/avatar.jpg">
-  <meta property="og:locale" content="en-us">
+  <meta property="twitter:image" content="https://www.victoraying.com/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-03-26T00:00:00-04:00">
+    
+      <meta property="article:published_time" content="2019-03-26T00:00:00-04:00">
+    
+    <meta property="article:modified_time" content="2019-03-26T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2019-03-26T00:00:00-04:00">
+
   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.victoraying.com/publication/timeloop/"
+  },
+  "headline": "Timeloop: A Systematic Approach to DNN Accelerator Evaluation",
+  
+  "datePublished": "2019-03-26T00:00:00-04:00",
+  "dateModified": "2019-03-26T00:00:00-04:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Victor A. Ying",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.victoraying.com/img/icon-512.png"
+    }
+  },
+  "description": "An infrastructure for exploring the design space of deep neural network (DNN) accelerators, including an expressive and concise representation of hardware topologies and choices about dataflow orchestration, as well as efficient modeling of performance and energy that enables exploring trade-offs by searching through large spaces of potential accelerator designs."
+}
+</script>
+
+  
+
+  
+
 
   
 
@@ -133,8 +190,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -168,7 +224,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -314,7 +370,7 @@
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="pub">
 
   
 
@@ -335,7 +391,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Timeloop: A Systematic Approach to DNN Accelerator Evaluation</h1>
+  <h1>Timeloop: A Systematic Approach to DNN Accelerator Evaluation</h1>
 
   
 
@@ -343,9 +399,6 @@
     
 
 
-
-<meta content="2019-03-26 00:00:00 -0400 EDT" itemprop="datePublished">
-<meta content="2019-03-26 00:00:00 -0400 EDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -358,7 +411,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://www.parashar.org/" target="_blank">Angshuman Parashar</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://stanfordaccelerate.github.io/" target="_blank">Priyanka Raina</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://ysshao.github.io/" target="_blank">Yakun Sophia Shao</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://research.nvidia.com/person/yuhsin-chen" target="_blank">Yu-Hsin Chen</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/">Victor A. Ying</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://people.csail.mit.edu/anurag_m/" target="_blank">Anurag Mukkara</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://research.nvidia.com/person/rangharajan-venkatesan" target="_blank">Rangharajan Venkatesan</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://research.nvidia.com/person/brucek-khailany" target="_blank">Brucek Khailany</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://www.cs.utexas.edu/users/skeckler/" target="_blank">Stephen W. Keckler</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>
+  <span><a href="https://www.parashar.org/" target="_blank">Angshuman Parashar</a></span>, <span><a href="https://stanfordaccelerate.github.io/" target="_blank">Priyanka Raina</a></span>, <span><a href="https://ysshao.github.io/" target="_blank">Yakun Sophia Shao</a></span>, <span><a href="https://research.nvidia.com/person/yuhsin-chen" target="_blank">Yu-Hsin Chen</a></span>, <span><a href="/">Victor A. Ying</a></span>, <span><a href="https://people.csail.mit.edu/anurag_m/" target="_blank">Anurag Mukkara</a></span>, <span><a href="https://research.nvidia.com/person/rangharajan-venkatesan" target="_blank">Rangharajan Venkatesan</a></span>, <span><a href="https://research.nvidia.com/person/brucek-khailany" target="_blank">Brucek Khailany</a></span>, <span><a href="https://www.cs.utexas.edu/users/skeckler/" target="_blank">Stephen W. Keckler</a></span>, <span><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>
 
   </div>
   
@@ -370,7 +423,7 @@
     
       
     
-    <time>March 2019</time>
+    March 2019
   </span>
   
 
@@ -378,6 +431,7 @@
 
   
 
+  
   
   
 
@@ -388,40 +442,85 @@
     
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Timeloop%3a%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ftimeloop%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2ftimeloop%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ftimeloop%2f&amp;title=Timeloop%3a%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ftimeloop%2f&amp;title=Timeloop%3a%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Timeloop%3a%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2ftimeloop%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.victoraying.com/publication/timeloop/&amp;text=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.victoraying.com/publication/timeloop/&amp;t=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation&amp;body=https://www.victoraying.com/publication/timeloop/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.victoraying.com/publication/timeloop/&amp;title=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation%20https://www.victoraying.com/publication/timeloop/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.victoraying.com/publication/timeloop/&amp;title=Timeloop:%20A%20Systematic%20Approach%20to%20DNN%20Accelerator%20Evaluation" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
   </ul>
 </div>
 
@@ -468,6 +567,14 @@
 
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/NVlabs/timeloop" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -493,7 +600,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">This paper presents Timeloop, an infrastructure for evaluating and exploring the architecture design space of deep neural network (DNN) accelerators. Timeloop uses a concise and unified representation of the key architecture and implementation attributes of DNN accelerators to describe a broad space of hardware topologies. It can then emulate those topologies to generate an accurate projection of performance and energy efficiency for a DNN workload through a mapper that finds the best way to schedule operations and stage data on the specified architecture. This enables fair comparisons across different architectures and makes DNN accelerator design more systematic. This paper describes Timeloop&rsquo;s underlying models and algorithms in detail and shows results from case studies enabled by Timeloop, which provide interesting insights into the current state of DNN architecture design. In particular, they reveal that dataflow and memory hierarchy co-design plays a critical role in optimizing energy efficiency. Also, there is currently still not a single architecture that achieves the best performance and energy efficiency across a diverse set of workloads due to flexibility and efficiency trade-offs. These results provide inspiration into possible directions for DNN accelerator research.</p>
+    <p class="pub-abstract">This paper presents Timeloop, an infrastructure for evaluating and exploring the architecture design space of deep neural network (DNN) accelerators. Timeloop uses a concise and unified representation of the key architecture and implementation attributes of DNN accelerators to describe a broad space of hardware topologies. It can then emulate those topologies to generate an accurate projection of performance and energy efficiency for a DNN workload through a mapper that finds the best way to schedule operations and stage data on the specified architecture. This enables fair comparisons across different architectures and makes DNN accelerator design more systematic. This paper describes Timeloop&rsquo;s underlying models and algorithms in detail and shows results from case studies enabled by Timeloop, which provide interesting insights into the current state of DNN architecture design. In particular, they reveal that dataflow and memory hierarchy co-design plays a critical role in optimizing energy efficiency. Also, there is currently still not a single architecture that achieves the best performance and energy efficiency across a diverse set of workloads due to flexibility and efficiency trade-offs. These results provide inspiration into possible directions for DNN accelerator research.</p>
     
 
     
@@ -560,6 +667,10 @@
 
 
 
+
+    
+
+
   </div>
 </div>
 
@@ -584,6 +695,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -592,9 +705,7 @@
 
     
     
-
-    
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -617,6 +728,7 @@
 
     
     
+
     
     
     
@@ -627,7 +739,9 @@
     
     
     
-    <script src="/js/academic.min.80598a1dc7d6b3a6fc1a6321b4faaf74.js"></script>
+    
+    
+    <script src="/js/academic.min.78950463da9085f271e45587656e114c.js"></script>
 
     
 

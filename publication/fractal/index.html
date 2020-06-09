@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.3.1">
+  <meta name="generator" content="Source Themes Academic 4.5.0">
 
   
 
@@ -35,8 +35,6 @@
 
   
 
-
-  
 
   
   
@@ -69,6 +67,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -76,13 +76,14 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
   
 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.966b3bc843cfea29ab40b0bad2f17078.css">
+  <link rel="stylesheet" href="/css/academic.min.986fd6dcc6a9841b1bfe2809c80999ba.css">
 
   
 
@@ -92,8 +93,8 @@
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
   <link rel="canonical" href="https://www.victoraying.com/publication/fractal/">
@@ -104,6 +105,7 @@
   
     
   
+  
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="twitter:site" content="@VictorAYing">
@@ -113,12 +115,67 @@
   <meta property="og:url" content="https://www.victoraying.com/publication/fractal/">
   <meta property="og:title" content="Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism | Victor A. Ying">
   <meta property="og:description" content="A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×."><meta property="og:image" content="https://www.victoraying.com/img/avatar.jpg">
-  <meta property="og:locale" content="en-us">
+  <meta property="twitter:image" content="https://www.victoraying.com/img/avatar.jpg"><meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-06-28T00:00:00-04:00">
+    
+      <meta property="article:published_time" content="2017-06-28T00:00:00-04:00">
+    
+    <meta property="article:modified_time" content="2017-06-28T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2017-06-28T00:00:00-04:00">
+
   
+
+
+    
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.victoraying.com/publication/fractal/"
+  },
+  "headline": "Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism",
+  
+  "datePublished": "2017-06-28T00:00:00-04:00",
+  "dateModified": "2017-06-28T00:00:00-04:00",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Victor A. Ying",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.victoraying.com/img/icon-512.png"
+    }
+  },
+  "description": "A new execution model that enhances the Swarm hardware architecture, a general-purpose multicore architecture that makes it easy to exploit more parallelism in many applications. Outperforms prior systems by up to 88×."
+}
+</script>
+
+  
+
+  
+
 
   
 
@@ -133,8 +190,7 @@
 
 </head>
 
-
-<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -168,7 +224,7 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
@@ -314,7 +370,7 @@
 </nav>
 
 
-  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="pub">
 
   
 
@@ -335,7 +391,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</h1>
+  <h1>Fractal: An Execution Model for Fine-Grain Nested Speculative Parallelism</h1>
 
   
 
@@ -343,9 +399,6 @@
     
 
 
-
-<meta content="2017-06-28 00:00:00 -0400 EDT" itemprop="datePublished">
-<meta content="2017-06-28 00:00:00 -0400 EDT" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -358,7 +411,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="http://people.csail.mit.edu/suvinay/" target="_blank">Suvinay Subramanian</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://www.eecg.utoronto.ca/~mcj/" target="_blank">Mark C. Jeffrey</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://sites.google.com/site/maleen89/" target="_blank">Maleen Abeydeera</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/hyun-ryong-lee/">Hyun Ryong Lee</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/">Victor A. Ying</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a></span>
+  <span><a href="http://people.csail.mit.edu/suvinay/" target="_blank">Suvinay Subramanian</a></span>, <span><a href="https://www.eecg.utoronto.ca/~mcj/" target="_blank">Mark C. Jeffrey</a></span>, <span><a href="https://sites.google.com/site/maleen89/" target="_blank">Maleen Abeydeera</a></span>, <span><a href="/authors/hyun-ryong-lee/">Hyun Ryong Lee</a></span>, <span><a href="/">Victor A. Ying</a></span>, <span><a href="https://people.csail.mit.edu/emer/" target="_blank">Joel Emer</a></span>, <span><a href="http://people.csail.mit.edu/sanchez/" target="_blank">Daniel Sanchez</a></span>
 
   </div>
   
@@ -370,7 +423,7 @@
     
       
     
-    <time>June 2017</time>
+    June 2017
   </span>
   
 
@@ -378,6 +431,7 @@
 
   
 
+  
   
   
 
@@ -388,40 +442,85 @@
     
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f"
-         target="_blank" rel="noopener">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li>
-      <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
-         target="_blank" rel="noopener">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-    <li>
-      <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f&amp;title=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism"
-         target="_blank" rel="noopener">
-        <i class="fab fa-weibo"></i>
-      </a>
-    </li>
-    <li>
-      <a class="email"
-         href="mailto:?subject=Fractal%3a%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;body=https%3a%2f%2fwww.victoraying.com%2fpublication%2ffractal%2f">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://www.victoraying.com/publication/fractal/&amp;text=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://www.victoraying.com/publication/fractal/&amp;t=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism&amp;body=https://www.victoraying.com/publication/fractal/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.victoraying.com/publication/fractal/&amp;title=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism%20https://www.victoraying.com/publication/fractal/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://www.victoraying.com/publication/fractal/&amp;title=Fractal:%20An%20Execution%20Model%20for%20Fine-Grain%20Nested%20Speculative%20Parallelism" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
   </ul>
 </div>
 
@@ -517,7 +616,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Most systems that support speculative parallelization, like hardware transactional memory (HTM), do not support nested parallelism.  This sacrifices substantial parallelism and precludes composing parallel algorithms. And the few HTMs that do support nested parallelism focus on parallelizing at the coarsest (shallowest) levels, incurring large overheads that squander most of their potential.  We present Fractal, a new execution model that supports unordered and timestamp-ordered nested parallelism. Fractal lets programmers seamlessly compose speculative parallel algorithms, and lets the architecture exploit parallelism at all levels. Fractal can parallelize a broader range of applications than prior speculative execution models. We design a Fractal implementation that extends the Swarm architecture and focuses on parallelizing at the finest (deepest) levels. Our approach sidesteps the issues of nested parallel HTMs and uncovers abundant fine-grain parallelism. As a result, Fractal outperforms prior speculative architectures by up to 88× at 256 core.</p>
+    <p class="pub-abstract">Most systems that support speculative parallelization, like hardware transactional memory (HTM), do not support nested parallelism.  This sacrifices substantial parallelism and precludes composing parallel algorithms. And the few HTMs that do support nested parallelism focus on parallelizing at the coarsest (shallowest) levels, incurring large overheads that squander most of their potential.  We present Fractal, a new execution model that supports unordered and timestamp-ordered nested parallelism. Fractal lets programmers seamlessly compose speculative parallel algorithms, and lets the architecture exploit parallelism at all levels. Fractal can parallelize a broader range of applications than prior speculative execution models. We design a Fractal implementation that extends the Swarm architecture and focuses on parallelizing at the finest (deepest) levels. Our approach sidesteps the issues of nested parallel HTMs and uncovers abundant fine-grain parallelism. As a result, Fractal outperforms prior speculative architectures by up to 88× at 256 core.</p>
     
 
     
@@ -584,6 +683,10 @@
 
 
 
+
+    
+
+
   </div>
 </div>
 
@@ -608,6 +711,8 @@
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
       
 
       
@@ -616,9 +721,7 @@
 
     
     
-
-    
-    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     
@@ -641,6 +744,7 @@
 
     
     
+
     
     
     
@@ -651,7 +755,9 @@
     
     
     
-    <script src="/js/academic.min.80598a1dc7d6b3a6fc1a6321b4faaf74.js"></script>
+    
+    
+    <script src="/js/academic.min.78950463da9085f271e45587656e114c.js"></script>
 
     
 
