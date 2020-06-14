@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Victor A. Ying</title>
+    <link>https://www.victoraying.com/authors/</link>
+      <atom:link href="https://www.victoraying.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://www.victoraying.com/img/avatar.jpg</url>
+      <title>Authors</title>
+      <link>https://www.victoraying.com/authors/</link>
+    </image>
+    
+    <item>
+      <title>[Victor A. Ying](/)</title>
+      <link>https://www.victoraying.com/authors/victor-a.-ying/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 -0400</pubDate>
+      <guid>https://www.victoraying.com/authors/victor-a.-ying/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hyun Ryong Lee</title>
+      <link>https://www.victoraying.com/authors/hyun-ryong-lee/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 -0400</pubDate>
+      <guid>https://www.victoraying.com/authors/hyun-ryong-lee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.victoraying.com/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/admin/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Victor. I&amp;rsquo;m a PhD student working with &lt;a href=&#34;http://people.csail.mit.edu/sanchez/&#34;&gt;Daniel Sanchez&lt;/a&gt;
+at &lt;a href=&#34;https://www.csail.mit.edu/&#34;&gt;MIT CSAIL&lt;/a&gt;.
+My primary work is in &lt;a href=&#34;http://swarm.csail.mit.edu&#34;&gt;the Swarm project&lt;/a&gt;,
+which seeks to build new abstractions between hardware and software
+that make it as easy to exploit multicore parallelism
+as it is to write ordinary sequential programs.
+My work spans computer architecture, compilers, and applications.
+I seek not only to make it easy to scale workloads where parallelization
+is expensive and error-prone today,
+but also to make it practical to scale workloads that
+today&amp;rsquo;s systems cannot scale at all.&lt;/p&gt;
+&lt;p&gt;Before coming to MIT, I received my BSE in electrical engineering
+from &lt;a href=&#34;https://engineering.princeton.edu/&#34;&gt;Princeton&lt;/a&gt;,
+where I worked with &lt;a href=&#34;http://www.princeton.edu/~sharad/&#34;&gt;Sharad Malik&lt;/a&gt;
+on &lt;a href=&#34;https://www.victoraying.com/talks/fields_2016_sat_efficiency.pdf&#34;&gt;Boolean satisfiability solvers&lt;/a&gt;.
+I have also done internships working on the design of
+hardware systems at &lt;a href=&#34;https://www.nvidia.com/en-us/research/&#34;&gt;NVIDIA Research&lt;/a&gt;,
+&lt;a href=&#34;https://www.purestorage.com/&#34;&gt;Pure Storage&lt;/a&gt;,
+and &lt;a href=&#34;https://www.nist.gov/publications/tunable-supercontinuum-fiber-laser-source-brdf-measurements-starr-ii-gonioreflectometer&#34;&gt;NIST&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can access my &lt;em&gt;curriculum vitae&lt;/em&gt; &lt;a href=&#34;https://www.victoraying.com/cv.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>[Angshuman Parashar](https://www.parashar.org/)</title>
+      <link>https://www.victoraying.com/authors/angshuman-parasharhttps/www.parashar.org/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/angshuman-parasharhttps/www.parashar.org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Anurag Mukkara](https://people.csail.mit.edu/anurag_m/)</title>
+      <link>https://www.victoraying.com/authors/anurag-mukkarahttps/people.csail.mit.edu/anurag_m/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/anurag-mukkarahttps/people.csail.mit.edu/anurag_m/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Brucek Khailany](https://research.nvidia.com/person/brucek-khailany)</title>
+      <link>https://www.victoraying.com/authors/brucek-khailanyhttps/research.nvidia.com/person/brucek-khailany/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/brucek-khailanyhttps/research.nvidia.com/person/brucek-khailany/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Daniel Sanchez](http://people.csail.mit.edu/sanchez/)</title>
+      <link>https://www.victoraying.com/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/daniel-sanchezhttp/people.csail.mit.edu/sanchez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Joel Emer](https://people.csail.mit.edu/emer/)</title>
+      <link>https://www.victoraying.com/authors/joel-emerhttps/people.csail.mit.edu/emer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/joel-emerhttps/people.csail.mit.edu/emer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Maleen Abeydeera](https://sites.google.com/site/maleen89/)</title>
+      <link>https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/maleen-abeydeerahttps/sites.google.com/site/maleen89/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Mark C. Jeffrey](https://www.eecg.utoronto.ca/~mcj/)</title>
+      <link>https://www.victoraying.com/authors/mark-c.-jeffreyhttps/www.eecg.utoronto.ca/~mcj/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/mark-c.-jeffreyhttps/www.eecg.utoronto.ca/~mcj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Priyanka Raina](https://stanfordaccelerate.github.io/)</title>
+      <link>https://www.victoraying.com/authors/priyanka-rainahttps/stanfordaccelerate.github.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/priyanka-rainahttps/stanfordaccelerate.github.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Rangharajan Venkatesan](https://research.nvidia.com/person/rangharajan-venkatesan)</title>
+      <link>https://www.victoraying.com/authors/rangharajan-venkatesanhttps/research.nvidia.com/person/rangharajan-venkatesan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/rangharajan-venkatesanhttps/research.nvidia.com/person/rangharajan-venkatesan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Stephen W. Keckler](https://www.cs.utexas.edu/users/skeckler/)</title>
+      <link>https://www.victoraying.com/authors/stephen-w.-kecklerhttps/www.cs.utexas.edu/users/skeckler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/stephen-w.-kecklerhttps/www.cs.utexas.edu/users/skeckler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Suvinay Subramanian](http://people.csail.mit.edu/suvinay/)</title>
+      <link>https://www.victoraying.com/authors/suvinay-subramanianhttp/people.csail.mit.edu/suvinay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/suvinay-subramanianhttp/people.csail.mit.edu/suvinay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Yakun Sophia Shao](https://ysshao.github.io/)</title>
+      <link>https://www.victoraying.com/authors/yakun-sophia-shaohttps/ysshao.github.io/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/yakun-sophia-shaohttps/ysshao.github.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Yu-Hsin Chen](https://research.nvidia.com/person/yuhsin-chen)</title>
+      <link>https://www.victoraying.com/authors/yu-hsin-chenhttps/research.nvidia.com/person/yuhsin-chen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://www.victoraying.com/authors/yu-hsin-chenhttps/research.nvidia.com/person/yuhsin-chen/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
