@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | Victor A. Ying</title>
-    <link>https://www.victoraying.com/authors/</link>
-      <atom:link href="https://www.victoraying.com/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.victorying.com/authors/</link>
+      <atom:link href="https://www.victorying.com/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 -0400</lastBuildDate>
     <image>
-      <url>https://www.victoraying.com/img/avatar.jpg</url>
+      <url>https://www.victorying.com/img/avatar.jpg</url>
       <title>Authors</title>
-      <link>https://www.victoraying.com/authors/</link>
+      <link>https://www.victorying.com/authors/</link>
     </image>
     
   </channel>
