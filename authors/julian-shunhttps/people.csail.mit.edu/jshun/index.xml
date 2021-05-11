@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Julian Shun](https://people.csail.mit.edu/jshun/) | Victor A. Ying</title>
+    <link>https://www.victorying.com/authors/julian-shunhttps/people.csail.mit.edu/jshun/</link>
+      <atom:link href="https://www.victorying.com/authors/julian-shunhttps/people.csail.mit.edu/jshun/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Julian Shun](https://people.csail.mit.edu/jshun/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>https://www.victorying.com/img/avatar.jpg</url>
+      <title>[Julian Shun](https://people.csail.mit.edu/jshun/)</title>
+      <link>https://www.victorying.com/authors/julian-shunhttps/people.csail.mit.edu/jshun/</link>
+    </image>
+    
+  </channel>
+</rss>
