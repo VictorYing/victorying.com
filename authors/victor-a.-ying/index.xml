@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>[Victor A. Ying](/) | Victor A. Ying</title>
+    <link>https://www.victorying.com/authors/victor-a.-ying/</link>
+      <atom:link href="https://www.victorying.com/authors/victor-a.-ying/index.xml" rel="self" type="application/rss+xml" />
+    <description>[Victor A. Ying](/)</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 14 Jun 2021 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>https://www.victorying.com/img/avatar.jpg</url>
+      <title>[Victor A. Ying](/)</title>
+      <link>https://www.victorying.com/authors/victor-a.-ying/</link>
+    </image>
+    
+  </channel>
+</rss>
